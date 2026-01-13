@@ -1,3 +1,129 @@
-body{
-    background-color: blue;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+header{
+    background-color: #FFFFFF;
+}
+nav {
+    max-width: 1600px;
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    max-width: 367px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+nav a{
+    text-decoration: none;
+    color: #000000;
+}
+nav img{
+    max-width: 139px;
+}
+button{
+    max-width: 164px;
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    font-size: 600;
+    padding: 12px 16px;
+    border-radius: 4px;
+}
+.banner{
+    max-width: 1600px;
+    background-image: url("assets/hero-bg.png");
+    margin: o auto;
+    padding: 115px;
+}
+.banner-container{
+    max-width: 1360px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.banner-info h5{
+    max-width: 229px;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #30B868;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.banner-info h2{
+    max-width: 770px;
+    margin: 0 auto;
+        border: 1px solid rgb(208, 235, 6);
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 84px;
+      color: #FFFFFF;
+      margin-bottom: 16px;
+      
+}
+.banner-info h2 span{
+    color: #30B868;
+}
+.banner-info p{
+    max-width: 1360px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: 2px solid greenyellow;
+    margin-bottom: 32px;
+
+}
+.banner-btn{
+    max-width:465px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid rgb(163, 212, 18);
+    justify-content: space-between;
+    
+    
+}
+.banner-btn .btn1{
+    max-width: 251px;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+    background-color: #469165;
+
+}
+.banner-btn .btn2{
+    max-width: 198px;
+    padding: 16px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: transparent;
+    border:2px solid #FFFFFF;
+    
 }
