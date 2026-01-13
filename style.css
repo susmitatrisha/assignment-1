@@ -43,6 +43,10 @@ nav img{
     font-size: 600;
     padding: 12px 16px;
     border-radius: 4px;
+    cursor: pointer;
+}
+.first-button:hover {
+    background-color: #30B868;
 }
 .banner{
     max-width: 1600px;
@@ -97,18 +101,23 @@ nav img{
 }
 .banner-btn .btn1{
     max-width: 251px;
-    padding: 12px 16px;
+    padding: 16px;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
-    align-items: center;
-    text-align: center;
     border-radius: 4px;
+    border: none;
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
     background-color: #469165;
+    cursor: pointer;
 
+}
+.btn1:hover{
+    background-color: #30B868;
 }
 .banner-btn .btn2{
     max-width: 198px;
@@ -121,8 +130,10 @@ nav img{
     border-radius: 4px;
     background-color: transparent;
     border:2px solid #FFFFFF;
-    
+    cursor: pointer;  
 }
+
+
 .note{
     max-width: 1360px;
     margin: 0 auto;
